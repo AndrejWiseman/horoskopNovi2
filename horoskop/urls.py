@@ -1,9 +1,8 @@
 from django.urls import path
-from .views import index, ovanH
+from .views import index, horoskop_view
 
 
 urlpatterns = [
     path('', index, name='index'),
-
-    path('ovan/', ovanH, name='ovan'),
+    path('horoskop/<str:znak>/', horoskop_view, name='horoskop'),
 ]
