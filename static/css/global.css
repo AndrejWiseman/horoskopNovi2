@@ -2,3 +2,16 @@
 body {
     background-color: tomato;
 }
+
+
+.no-display {
+    display: none;
+}
+
+.loader-hidden {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+

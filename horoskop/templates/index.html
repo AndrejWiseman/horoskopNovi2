@@ -3,10 +3,22 @@
 
 {% block content %}
 
-    <p>Pocetna</p>
 
-    <a href="{% url 'horoskop' znak='ovan' %}">Ovan</a>
-    <a href="{% url 'horoskop' znak='vodolija' %}">Vodolija</a>
+{#    <div id="spinner" class="">#}
+{#        <div class="d-flex justify-content-center">#}
+{#          <div class="spinner-border" role="status">#}
+{#            <span class="visually-hidden">Loading...</span>#}
+{#          </div>#}
+{#        </div>#}
+{#    </div>#}
+
+
+    <div id="list">
+        <p>Pocetna</p>
+
+        <a href="{% url 'horoskop' znak='ovan' %}">Ovan</a>
+        <a href="{% url 'horoskop' znak='vodolija' %}">Vodolija</a>
+    </div>
 
 
 {% endblock %}
