@@ -26,6 +26,5 @@
       "src": "/(.*)",
       "dest": "horoskop5/wsgi.py"
     }
-  ],
-  "outputDirectory": "staticfiles"
+  ]
 }
